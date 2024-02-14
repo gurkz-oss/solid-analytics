@@ -1,6 +1,6 @@
 {
   "name": "@gurkz/solid-analytics",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a simple library that adds analytics to solidjs",
   "license": "MIT",
   "author": "Gurkan",
