@@ -20,7 +20,7 @@ const Analytics: ParentComponent<{
   return (
     <>
       <script async src={`${props.hostUrl}/script.js`} data-website-id={props.websiteId} />
-      <AnalyticsProvider hostUrl={`${props.hostUrl}`} websiteId={`${props.websiteId}`}>
+      <AnalyticsProvider>
         {props.children}
       </AnalyticsProvider>
     </>

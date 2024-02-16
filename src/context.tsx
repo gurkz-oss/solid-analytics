@@ -6,10 +6,7 @@ const AnalyticsContext = createContext<Umami>({
   track: (event, eventData) => internal_track(event, eventData),
 })
 
-const AnalyticsProvider: ParentComponent<{
-  websiteId: string
-  hostUrl: string
-}> = props => {
+const AnalyticsProvider: ParentComponent = props => {
   const umami: Umami = {
     track: (event, eventData) => internal_track(event, eventData),
   }
